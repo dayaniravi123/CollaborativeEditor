@@ -22,7 +22,6 @@ function App() {
   })
   const monacoBinding = new MonacoBinding(type, (editor.getModel()), new Set([editor]), provider.awareness)
 
- 
 }
 
 export default App;
